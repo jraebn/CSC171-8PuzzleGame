@@ -1,1 +1,4 @@
-# CSC171-8PuzzleGame
+# CSC171-8puzzle
+
+8 puzzle game using BFS
+
