@@ -76,11 +76,11 @@ function myFunction(){
     }
     console.log(x)
     $.ajax({
-            url: 'http:/localhost:5000/solve/' + x, 
-            // headers: {
-            //   'accept': 'application/json',
-            //   'Access-Control-Allow-Origin':'*'
-            // },                       
+            url: 'http://localhost:5000/solve/' + x, 
+            headers: {
+              'accept': 'application/json',
+              'Access-Control-Allow-Origin':'*'
+            },                       
             method:  'GET',
             contentType: 'application/json; charset=utf-8',
             dataType: 'json',
